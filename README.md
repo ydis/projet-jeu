@@ -1,2 +1,2 @@
 # projet-jeu
-RPG en groupe
+RPG
