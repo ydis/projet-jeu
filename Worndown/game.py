@@ -1,0 +1,1 @@
+chooseteam = input("choose character : ")
