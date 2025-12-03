@@ -1,4 +1,4 @@
-class characters:
+class character:
     def __init__(self, name, pv, atk, defce ):
         self.name = name
         self.pv = pv
@@ -17,3 +17,4 @@ class monster:
         super().__init__(name, pv, atk, defce)
         self.race = race
         
+

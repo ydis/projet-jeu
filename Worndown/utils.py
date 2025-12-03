@@ -1,6 +1,6 @@
 from db_init import get_database
 import models
-db = get_database
+db = get_database()
 
 def get_characters_collection():
     collection = db["characters_db"]
