@@ -12,9 +12,9 @@ class character:
         reduced = max(0, dmg - self.defce)
         self.take_damage(reduced)
 
-class monster:
-    def __init__(self, name, pv, atk, defce, race):
+class monster(character):
+    def __init__(self, name, pv, atk, defce,):
         super().__init__(name, pv, atk, defce)
-        self.race = race
+        #pas de race pour l'instant, si j'ai le temps je le rajoute après
         
 

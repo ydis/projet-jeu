@@ -1,12 +1,12 @@
 import game
 
-game = True
+running = True
 
 #boucle pour le jeu
-while game:
+while running:
 
     #Menu
-    print("                                            !!!WORNDOW!!!")
+    print("                                            !!!WORNDOWN!!!")
     print(                                              "Main Menu")
     print(                                               "")
 
@@ -23,7 +23,6 @@ while game:
         game.show_leaderboard()# à déf dans game.py
     elif menu_choice == "3":
         print("skill issue ?")
-        game = False
+        running = False
     else:
         print("bruh try again it's just 3 choices")
-    break       
